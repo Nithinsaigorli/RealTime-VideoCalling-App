@@ -8,7 +8,7 @@ const connectToSocket = (server) => {
   const io = new Server(server, {
     cors: {
       origin: "*",
-      credenitals: true,
+      credentials: true,
       method: ["GET", "POST"],
       allowedHeaders: ["*"],
     },
