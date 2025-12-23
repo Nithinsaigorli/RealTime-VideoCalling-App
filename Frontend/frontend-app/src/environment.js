@@ -1,7 +1,7 @@
-let IS_PROD = false;
+let IS_PROD = true;
 
 const server = IS_PROD
-  ? "https://now-video-call-backend.onrender.com"
+  ? "https://realtime-videocalling-app-zqi7.onrender.com"
   : "http://localhost:8000";
 
 export default server;
